@@ -11,10 +11,7 @@
   <ItemGroup>
     <Folder Include="Data\usecases\" />
     <Folder Include="Data\protocols\" />
-    <Folder Include="Domain\models\" />
-    <Folder Include="Domain\usecases\" />
     <Folder Include="Infra\crypto\" />
-    <Folder Include="Infra\repos\" />
     <Folder Include="Main\factories\" />
     <Folder Include="Utils-Adapters\" />
     <Folder Include="Presentation\controllers\" />
