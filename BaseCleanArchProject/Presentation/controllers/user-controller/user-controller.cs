@@ -15,10 +15,10 @@ namespace BaseCleanArchProject.Presentation.controllers.user_controller
         {
         }
 
-        public Domain.models.User Signup (string id, string name, string email, string password)
+        public User Signup (string id, string name, string email, string password)
         {
             UserRepo user = new UserRepo(id, name, email, password);
-            Domain.models.User addedUser = user.Add();
+            User addedUser = user.Add();
             return addedUser;
         }
     }
