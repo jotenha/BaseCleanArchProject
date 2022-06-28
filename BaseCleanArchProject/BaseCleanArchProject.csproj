@@ -9,7 +9,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Data\" />
+    <Folder Include="Data\usecases\" />
+    <Folder Include="Data\protocols\" />
     <Folder Include="Domain\" />
     <Folder Include="Infra\" />
     <Folder Include="Presentation\" />
