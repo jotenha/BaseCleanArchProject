@@ -11,7 +11,8 @@
   <ItemGroup>
     <Folder Include="Data\usecases\" />
     <Folder Include="Data\protocols\" />
-    <Folder Include="Domain\" />
+    <Folder Include="Domain\models\" />
+    <Folder Include="Domain\usecases\" />
     <Folder Include="Infra\" />
     <Folder Include="Presentation\" />
   </ItemGroup>
