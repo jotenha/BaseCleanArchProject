@@ -1,5 +1,4 @@
-﻿using BaseCleanArchProject.Domain;
-using BaseCleanArchProject.Domain.models;
+﻿using BaseCleanArchProject.Domain.models;
 using BaseCleanArchProject.Domain.usecases.User_usecases;
 using System;
 using System.Collections.Generic;
@@ -9,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BaseCleanArchProject.Infra.repos
 {
-    internal class UserRepo : User, Iadd_user, Iremove_user
+    internal class UserRepo : UserModel, Iadd_user, Iremove_user
     {
         public UserRepo(string id, string name, string email, string password) : base(id, name, email, password)
         {
