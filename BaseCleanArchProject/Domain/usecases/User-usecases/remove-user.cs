@@ -9,6 +9,6 @@ namespace BaseCleanArchProject.Domain.usecases.User_usecases
 {
     internal interface Iremove_user
     {
-        public bool Remove(User user);
+        public bool Remove();
     }
 }

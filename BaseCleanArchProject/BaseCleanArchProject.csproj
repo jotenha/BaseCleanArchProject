@@ -14,7 +14,6 @@
     <Folder Include="Infra\crypto\" />
     <Folder Include="Main\factories\" />
     <Folder Include="Utils-Adapters\" />
-    <Folder Include="Presentation\controllers\" />
     <Folder Include="Presentation\helpers\" />
     <Folder Include="Presentation\protocols\" />
   </ItemGroup>

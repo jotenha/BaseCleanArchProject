@@ -9,6 +9,6 @@ namespace BaseCleanArchProject.Domain.usecases.User_usecases
 {
     internal interface Iadd_user
     {
-        public User Add(User user);
+        public User Add();
     }
 }

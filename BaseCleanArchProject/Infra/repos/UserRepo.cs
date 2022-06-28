@@ -15,13 +15,13 @@ namespace BaseCleanArchProject.Infra.repos
         {
         }
 
-        public User Add(User user)
+        public User Add()
         {
             //Database add
             throw new NotImplementedException();
         }
 
-        public bool Remove(User user)
+        public bool Remove()
         {
             //Database remove
             throw new NotImplementedException();
